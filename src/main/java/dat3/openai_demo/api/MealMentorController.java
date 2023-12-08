@@ -3,13 +3,9 @@ package dat3.openai_demo.api;
 import dat3.openai_demo.dtos.MyResponse;
 import dat3.openai_demo.dtos.UserPromptResponse;
 import dat3.openai_demo.dtos.UserResponse;
-import dat3.openai_demo.entity.User;
-import dat3.openai_demo.service.OpenAiService;
-import dat3.openai_demo.service.UserService;
-import dat3.security.service.UserDetailsServiceImp;
-import io.netty.handler.codec.http.HttpResponseStatus;
+import dat3.security.service.OpenAiService;
+import dat3.security.service.UserService;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 

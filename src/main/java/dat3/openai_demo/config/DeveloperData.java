@@ -64,8 +64,10 @@ public class DeveloperData implements ApplicationRunner {
                 180, 80, 25, allergies, "Male", "Moderate", "Gain muscle");
         User user2 = new User("testuser2", passwordUsedByAll, "testuser2@test.dk", 90,
                 200, 50, 0, allergies2, "Male", "No excercise", "Lose weight");
+        User user3 = new User("testuser3", passwordUsedByAll, "testuser3@test.dk", 90,
+                200, 50, 2, allergies2, "Male", "No excercise", "Lose weight");
 
-        userRepository.saveAll(Arrays.asList(user1, user2));
+        userRepository.saveAll(Arrays.asList(user1, user2, user3));
 
     }
 

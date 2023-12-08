@@ -6,7 +6,7 @@ import dat3.openai_demo.dtos.UserResponse;
 import dat3.openai_demo.entity.User;
 import dat3.openai_demo.repository.AllergyRepository;
 import dat3.openai_demo.repository.UserRepository;
-import dat3.openai_demo.service.UserService;
+import dat3.security.service.UserService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package dat3.openai_demo.service;
+package dat3.security.service;
 
 import dat3.openai_demo.dtos.MealResponse;
 import dat3.openai_demo.dtos.SaveMealResponse;

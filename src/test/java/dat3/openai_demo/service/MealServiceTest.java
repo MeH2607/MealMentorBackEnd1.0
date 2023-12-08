@@ -2,11 +2,10 @@ package dat3.openai_demo.service;
 
 import dat3.openai_demo.TestUtils;
 import dat3.openai_demo.dtos.MealResponse;
-import dat3.openai_demo.entity.Meal;
-import dat3.openai_demo.entity.User;
 import dat3.openai_demo.repository.IngredientRepository;
 import dat3.openai_demo.repository.MealRepository;
 import dat3.openai_demo.repository.UserRepository;
+import dat3.security.service.MealService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -2,9 +2,8 @@ package dat3.openai_demo.api;
 
 import dat3.openai_demo.dtos.MealResponse;
 import dat3.openai_demo.dtos.SaveMealResponse;
-import dat3.openai_demo.dtos.UserResponse;
 import dat3.openai_demo.entity.Meal;
-import dat3.openai_demo.service.MealService;
+import dat3.security.service.MealService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

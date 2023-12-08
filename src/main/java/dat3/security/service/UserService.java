@@ -1,4 +1,4 @@
-package dat3.openai_demo.service;
+package dat3.security.service;
 
 import dat3.openai_demo.dtos.UserRequest;
 import dat3.openai_demo.dtos.UserResponse;

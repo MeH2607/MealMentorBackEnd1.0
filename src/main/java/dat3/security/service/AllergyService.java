@@ -1,4 +1,4 @@
-package dat3.openai_demo.service;
+package dat3.security.service;
 
 import dat3.openai_demo.entity.Allergy;
 import dat3.openai_demo.repository.AllergyRepository;
