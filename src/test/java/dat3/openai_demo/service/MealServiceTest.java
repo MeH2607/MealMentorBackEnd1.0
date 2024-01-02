@@ -41,7 +41,7 @@ class MealServiceTest {
     @Test
     void getAllMeals() {
         List<MealResponse> meals = mealService.getMeals();
-        assertEquals(2, meals.size());
+        assertEquals(100, meals.size());
     }
 
 
